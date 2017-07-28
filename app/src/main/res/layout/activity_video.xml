@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.thomas.webkiosk.VideoActivity">
+
+    <VideoView
+    android:id="@+id/videoview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" />
+
+    <ImageButton
+        android:id="@+id/back_button"
+        android:layout_width="50px"
+        android:layout_height="50px"
+        android:layout_gravity="center_vertical|center_horizontal"
+        android:src="@mipmap/back_button_png"
+        />
+
+
+    </android.support.constraint.ConstraintLayout>
